@@ -21,13 +21,13 @@
 
     <!-- artikels -->
     <div class="content_container left_container">
-      <a href="{{ url('/news') }}">
+      <a href="{{ url('/testimonials') }}">
         <div class="img_div">
-          <img src="{{ asset('images/home/03.jpg') }}" alt="drie studenten">
+          <img src="{{ asset('images/home/01.jpg') }}" alt="studenten in Antwerpen">
         </div>
         <div class="text_div">
-          <h3>NIEUWS</h3>
-          <p>Alles wat er gebeurt in het studentenleven van Antwerpen.</p>
+          <h3>ERVARINGEN</h3>
+          <p>Leer de Antwerpenaren kennen: wie ze zijn en wat ze doen.</p>
         </div>
       </a>
     </div>
@@ -39,7 +39,7 @@
           <img src="{{ asset('images/home/02.jpg') }}" alt="UKarel De Grote">
         </div>
         <div class="text_div">
-          <h3>OPLEIDINGEN</h3>
+          <h3>STUDIES</h3>
           <p>Scholen, opleidingen, en alle andere info over jouw studies..</p>
         </div>
       </a>
@@ -60,13 +60,13 @@
     <!-- **************************************
 -->
     <div class="content_container left_container">
-      <a href="{{ url('/testimonials') }}">
+      <a href="{{ url('/news') }}">
         <div class="img_div">
-          <img src="{{ asset('images/home/01.jpg') }}" alt="studenten in Antwerpen">
+          <img src="{{ asset('images/home/03.jpg') }}" alt="drie studenten">
         </div>
         <div class="text_div">
-          <h3>ERVARINGEN</h3>
-          <p>Leer de Antwerpenaren kennen: wie ze zijn en wat ze doen.</p>
+          <h3>NIEUWS</h3>
+          <p>Alles wat er gebeurt in het studentenleven van Antwerpen.</p>
         </div>
       </a>
     </div>
