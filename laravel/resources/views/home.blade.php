@@ -21,7 +21,7 @@
     
     <!-- artikels -->
     <div class="content_container left_container">
-      <a href="{{ url('/testimonials') }}">
+      <a href="{{ url('/news') }}">
         <div class="img_div">
           <img src="{{ asset('images/home/03.jpg') }}" alt="studenten in Antwerpen">
         </div>
@@ -54,7 +54,7 @@
         </a>
     </div><!-- **************************************
 --><div class="content_container left_container">
-      <a href="{{ url('/news') }}">
+      <a href="{{ url('/testimonials') }}">
         <div class="img_div">
           <img src="{{ asset('images/home/01.jpg') }}" alt="drie studenten">
         </div>
