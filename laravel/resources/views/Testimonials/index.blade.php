@@ -19,7 +19,7 @@
                     <h4><a href="{{$testimonial->url}}" target="_blank">{{$testimonial->name}}</a></h4>
                     <p>{{$testimonial->text}}</p>
 
-                    <a href="{{$testimonial->url}}" class="btn btn-small" target="_blank">Read More</a>
+                    <a href="{{$testimonial->url}}" class="btn btn-small" target="_blank">Lees Meer</a>
                 </div>
             </div>
         </div>

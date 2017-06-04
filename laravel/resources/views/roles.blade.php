@@ -5,9 +5,9 @@
 
   <div class="row">
     <div class="search_user_div">
-        <label for="name">Search:</label>
+        <label for="name">Zoek een gebruiker op naam:</label>
         <input required="required" maxlength="255" name="name" type="text" id="name" class="form-control ">
-        <button value="Create new richtingen" class="btn btn-success btn-lg btn-block " style="margin-top: 20px;" id="search">Search</button>
+        <button value="Create new richtingen" class="btn btn-success btn-lg btn-block " style="margin-top: 20px;" id="search">Zoek</button>
     </div>
     
     <div class="user_table_div">
@@ -15,11 +15,11 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>Name</th>
-            <th>email</th>
+            <th>Naam</th>
+            <th>E-mail</th>
             
             @if(Auth::user()->roles ==3)
-                <th>roles</th>
+                <th>Rol</th>
             @endif
           </tr>
         </thead>
@@ -59,7 +59,6 @@
   <script>
     $(document).ready(function() {
       $('#search').click(function() {
-        alert($('#name').val());
         var path = "{{route('roles.search',0)}}";
         location.href = path.substr(0, path.length - 1) + $('#name').val();
       });

@@ -169,13 +169,11 @@
                   function show_hamburger_menu() {
                       var menu = document.getElementsByClassName("nav_elements")[0];
                       
-                      if(screen.width < 650) {
-                          if(menu.classList.contains('hidden')) {
-                              menu.classList.remove('hidden');
-                          }
-                          else {
-                              menu.classList.add('hidden');
-                          }
+                      if(menu.classList.contains('hidden')) {
+                          menu.classList.remove('hidden');
+                      }
+                      else {
+                          menu.classList.add('hidden');
                       }
                   }
               </script>
