@@ -352,6 +352,7 @@ video {
 	min-height: 200px !important;
 	width: 100% !important;
 	overflow: hidden !important;
+    max-height: 300px;
 }
 
 .img_erv img {
